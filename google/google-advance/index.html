@@ -6,22 +6,34 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google Advance</title>
+    <link rel="stylesheet" href="/google/styles/index.css">
 </head>
 <body>
-<form action="https://google.com/search">
-    <label for="allWords">All these words:
-        <input id="allWords" type="text" name="as_q">
-    </label>
-    <label for="exactWord">This exact word or phrase:
-        <input id="exactWord" type="text" name="as_epq">
-    </label>
-    <label for="anyWords">Any of these words:
-        <input id="anyWords" type="text" name="as_oq">
-    </label>
-    <label for="noneWords">None of these words:
-        <input id="noneWords" type="text" name="as_eq">
-    </label>
-    <input type="submit" value="Google Search">
-</form>
+    <header>
+        <div class="nav-adv">
+            <img src="/google/google-logo.svg" alt="Google Logo" class="logo_2">
+            <a href="/google/index.html"><h4>Google</h4></a>
+        </div>
+        <h1>Advanced Search</h1>
+    </header>
+    <div class="div-adv">
+        <form class="form-adv" action="https://google.com/search">
+            <legend>Find pages with...</legend>
+            <label for="allWords">All these words:
+                <input id="allWords" type="text" name="as_q">
+            </label>
+            <label for="exactWord">This exact word or phrase:
+                <input id="exactWord" type="text" name="as_epq">
+            </label>
+            <label for="anyWords">Any of these words:
+                <input id="anyWords" type="text" name="as_oq">
+            </label>
+            <label for="noneWords">None of these words:
+                <input id="noneWords" type="text" name="as_eq">
+            </label>
+            <input type="submit" value="Google Search">
+        </form>
+    </div>
+
 </body>
 </html>
